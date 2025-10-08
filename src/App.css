@@ -1,0 +1,28 @@
+li {
+  list-style: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+
+}
+.container > li {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+
+}
+.skills{
+  display: flex;
+}
+
+.skills > li {
+  text-align: center;
+  padding:0.25rem ;
+}
